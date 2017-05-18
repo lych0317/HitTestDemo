@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="r0J-8C-8WT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="r0J-8C-8WT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="T6a-8J-OQy"/>
+                            <constraint firstItem="r0J-8C-8WT" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="bTW-c0-J2m"/>
+                            <constraint firstItem="r0J-8C-8WT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jRY-Sp-tu4"/>
+                            <constraint firstItem="r0J-8C-8WT" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="pbS-Fc-3VQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="S6f-vC-0gz">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="2bP-fV-2Ek"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45.600000000000001" y="120.98950524737631"/>
+        </scene>
+        <!--Custom View Controller-->
+        <scene sceneID="tt4-Ns-pea">
+            <objects>
+                <viewController storyboardIdentifier="CustomViewController" id="cWt-aE-mmX" customClass="CustomViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gIi-S9-oLE"/>
+                        <viewControllerLayoutGuide type="bottom" id="zPo-fW-Lls"/>
+                    </layoutGuides>
+                    <view key="view" alpha="0.69999999999999996" contentMode="scaleToFill" id="Gep-pW-8Mp" customClass="CustomView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9DW-06-CCz">
+                                <rect key="frame" x="0.0" y="294" width="375" height="687"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计获得高级筛选项信息，用于首页、列表页统计</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1539035775" green="0.50196078430000002" blue="0.35300468709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <outlet property="textView" destination="9DW-06-CCz" id="t0R-XD-N6S"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EPw-yV-kL1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792.79999999999995" y="120.98950524737631"/>
+        </scene>
+    </scenes>
+</document>
