@@ -35,13 +35,20 @@
     CGPoint curP = [touch locationInView:self];
     CGPoint preP = [touch previousLocationInView:self];
     CGFloat offsetY = curP.y - preP.y;
-    self.textView.transform = CGAffineTransformTranslate(self.textView.transform, 0, offsetY);
-    if (self.textView.frame.origin.y < 0) {
-        CGRect rect = self.textView.frame;
+    CGRect rect = self.textView.frame;
+    rect.origin.y = rect.origin.y + offsetY;
+    CGFloat offsetYForTextViewContainer = self.textView.contentOffset.y;
+    if (rect.origin.y < 0) {
+        offsetYForTextViewContainer -= rect.origin.y;
         rect.origin.y = 0;
-        self.textView.frame = rect;
-        [self.textView becomeFirstResponder];
+    } else if (rect.origin.y > 0) {
+        if (offsetYForTextViewContainer > 0) {
+            offsetYForTextViewContainer -= rect.origin.y;
+            rect.origin.y = 0;
+        }
     }
+    self.textView.frame = rect;
+    self.textView.contentOffset = CGPointMake(0, offsetYForTextViewContainer);
 }
 
 @end
